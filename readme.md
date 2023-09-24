@@ -1,0 +1,11 @@
+#parcel
+-dev build
+-local s/r
+-hmr -hot module replacement(reload page/live server)
+-file watching algo-written in c++-wch takes less time every repeated build
+-caching
+-image optimization
+-minification
+-bundling
+-compress
+-
