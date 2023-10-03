@@ -1,30 +1,22 @@
-import React from 'react';
-import  ReactDOM from 'react-dom/client';
+//react element "namste react 🛰️ "
+const heading=React.createElement("h1",{id:"one"},[
 
-{/* <div id="parent">
-    <div id="parent">
-        <h1>hi lets start with react</h1>
-        <h2>its an amazing journey</h2>
-    </div>
-</div> */}
-const parent=React.createElement("div",{id:"parent"},[
-    React.createElement("div",{id:"child1"},
-    React.createElement("div",{id:"sub1"},
-    [React.createElement("h1",{id:"tag"},"hi lets start with react and rock it "),React.createElement("h2",{id:"tag2"},"its an amazing journey ")]
-    )
-    ),
-    React.createElement("div",{id:"child2"},
-React.createElement("div",{id:"sub2"},
-[React.createElement("h1",{id:"tag"},"hi lets start with react and enjoy the journey "),React.createElement("h2",{id:"tag2"},"its an amazing journey ")]
-)
-)
+
+React.createElement("h2",{id:"a1"},[
+    React.createElement("h2",{id:"a11"},"hi namste react 🛰️"),
+    React.createElement("h2",{id:"a12"},"bye")
+]),
+React.createElement("h2",{id:"a2"},[
+    React.createElement("h2",{id:"a21"},"hello react"),
+    React.createElement("h2",{id:"a22"},"bye boredom")
+])
 ]
 )
-console.log(parent)
-const heading=React.createElement("h1",{id:"a1",className:"abc",xyz:"learn"},"namste react")
-console.log(heading)//object
-const root=ReactDOM.createRoot(document.getElementById("root"))
-root.render(heading)
-root.render(parent)
 
- 
+//console.log(heading)
+const root=ReactDOM.createRoot(document.getElementById("root"))
+//console.log(root)
+
+root.render(heading)
+
+

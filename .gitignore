@@ -1,1 +1,7 @@
 /node_modules
+/dist
+.parcel-cache
+3.js
+a.html
+demo.js
+prevcode.js
